@@ -17,6 +17,5 @@ class Solution:
         # z is a 1D NumPy array
         # Formula: max(0, z) element-wise
         out = np.maximum(0,z)
-        print(out)
         return np.round(out, 5)
         pass
